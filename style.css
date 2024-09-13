@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    background-color: #120520;
+}
+
+html {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 16px;
+}
+
+.header-section{
+    background-image: url("VidKreate-Exercises/golden-confetti.png");
+    background-size: cover;
+    /* height: 339px; */
+    text-align: center;
+    position: relative;
+}
+
+.logo-name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    margin-top: 58px;
+}
+
+.name{
+    color: #ffffff;
+    width: 237px;
+    font-size: 3rem;
+    font-weight: 550;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+.success-section{
+    color: transparent;
+    font-weight: 800;
+    margin-bottom: 0px;
+    background-image: linear-gradient(white 50%, rgb(4, 4, 4.9));
+    background-clip: text;
+}
+
+.success-section p{
+    margin: 0px;
+    padding-top: 0px;
+    font-size: 7rem;
+}
+
+.body-container{
+    margin-bottom: 13.5rem;
+}
+
+.top-right-rocket{
+    background-image: url(VidKreate-Exercises/Ellipse\ 4.png);
+    position: absolute;
+    height: 800px;
+    right: 0px;
+    top: -20px;
+    width: 20rem;
+    border-bottom-left-radius: 300px;
+}
+
+.play-image{
+    position: absolute;
+    top: 227px;
+    right: 40px;
+}
+
+.rock-image{
+    position: absolute;
+    right: 0px;
+    bottom: 215px;
+}
+
+.top-left-chain{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.para1{
+    color: #B7B2D0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 0px;
+    /* border: 1px solid red; */
+}
+
+.para1 p{
+    padding-top: 0px;
+}
+
+.about-vid{
+    margin-top: 15rem;
+    text-align: center;
+    position: relative;
+}
+
+.victor-image{
+    position: absolute;
+    left: 43rem;
+    top: -130px;
+}
+
+.instructions{
+    display: inline-block;
+    background-color: #4123e4;
+    height: 60rem;
+    width: 80%;
+    border-radius: 10px;
+    text-align: start;
+    gap: 50rem;
+}
+
+.sub-name{
+    color: #fff;
+    margin-top: 10rem;
+    gap: 2px;
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.para-sentences{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #D2CEE5;
+    margin-left: 15rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.crown-founder{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 14rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    place-items: center;
+    background-color: #6c55e1;
+    width: 9%;
+    border-radius: 15px;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.box-image{
+    position: absolute;
+    bottom: 0px;
+}
+
+.vector-image{
+    position: absolute;
+    bottom: -256.9px;
+    left: 90px;
+    z-index: -1;
+}
+
+.man-image{
+    position: absolute;
+    right: 10rem;
+    bottom: -14rem;
+}
+
+.footer-section{
+    color: #D2CEE5;
+    text-align: center;
+    background-color: #20083c;
+    height: 500px;
+    font-size: 18px;
+    line-height: 30px;
+    gap: 20px;
+}
+
+.copy-right{
+    padding-top: 30px;
+}
+
+/* .logo2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    margin-top: 58px;
+} */
